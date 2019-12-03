@@ -1,0 +1,47 @@
+logs
+target
+temp
+tmp
+dist
+.idea
+.idea_modules
+.classpath
+.project
+RUNNING_PID
+.settings
+Thumbs.db
+ivycache
+.DS_Store
+*.war
+.idea
+
+
+#special handling of testReport files
+test-report.md
+doc/TestReport.yml
+doc/chapters/testreport/testreport_evidence_*.md
+doc/chapters/ActivityReference.md
+doc/chapters/PluginReference.md
+license-report.yml
+doc/chapters/license-report/*.generated.md
+
+# Spark specific files generated during testing
+spark-warehouse
+metastore_db
+derby.log
+eccenca/eccenca-plugins-spark/src/test/resources/testProjects/cmem_merge/resources/merged_output.csv
+eccenca/eccenca-plugins-spark/src/test/resources/testdata/output.avro/
+
+# Build artefacts
+eccenca-DataIntegration-assembly.jar
+eccenca-DataIntegration-cloudfoundry.zip
+eccenca-DataIntegration-develop/
+
+# Config file that only stores the automatically generated version string
+eccenca/src/main/resources/reference.conf
+
+# E2E Test Results
+E2E-tests/reports
+
+# Generated React components files
+eccenca/eccenca-scripttask/public
